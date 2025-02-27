@@ -16,6 +16,7 @@ function initializeSlider(){
 }
 
 function prevSlide(){
+  clearInterval(intervalID);
   slideIndex--;
   showSlide(slideIndex);
 }
